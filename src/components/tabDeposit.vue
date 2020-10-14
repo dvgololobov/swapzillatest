@@ -3,11 +3,17 @@
     <v-col cols="6" offset="3">
       <v-row>
         <v-col cols="12" class="pa-0">
-          <v-select :items="exchanges" flat background-color="border" color="dark" solo v-model="exchange" placeholder="Choose exchange"></v-select>
+          <v-select :items="exchanges"
+                    flat background-color="border"
+                    color="dark" solo v-model="exchange"
+                    placeholder="Choose exchange"></v-select>
         </v-col>
         <v-col cols="12" class="pa-0">
-          <v-select :items="currencies" flat background-color="border" solo v-model="currency" placeholder="Choose currency">
-            <template></template>
+          <v-select :items="currencies"
+                    flat
+                    background-color="border"
+                    solo v-model="currency"
+                    placeholder="Choose currency">
           </v-select>
         </v-col>
         <v-col cols="12" class="pa-0">

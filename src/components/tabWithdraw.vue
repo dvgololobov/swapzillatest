@@ -24,7 +24,11 @@
           </v-select>
         </v-col>
         <v-col cols="12" class="pa-0">
-          <v-text-field v-model="amount" flat background-color="border" solo placeholder="Withdraw amount">
+          <v-text-field v-model="amount"
+                        flat
+                        background-color="border"
+                        solo
+                        placeholder="Withdraw amount">
             <template v-slot:append>
               <v-btn color="label" elevation="0" dark>Max</v-btn>
             </template>
