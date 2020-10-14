@@ -44,10 +44,7 @@
           </v-select>
         </v-col>
         <v-col cols="12" class="pa-0">
-          <v-autocomplete v-model="amount" flat solo background-color="border" placeholder="Withdraw amount">
-            <template v-slot:append>
-              <v-btn color="label" elevation="0" dark>Max</v-btn>
-            </template>
+          <v-autocomplete v-model="amount" flat solo background-color="border" placeholder="Amount">
             <template v-slot:no-data>
               <v-row class="ma-0" style="max-width: 360px;">
                 <v-col cols="12">
